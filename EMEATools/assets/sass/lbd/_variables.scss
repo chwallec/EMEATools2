@@ -201,6 +201,9 @@ $blue-color-bottom: 	            #533ce1;
 $azure-color-top:   	            #45c0fd;
 $azure-color-bottom:            	#4091ff;
 
+$teal-color-top:                  #008080;
+$teal-color-bottom:               #00bbbb;
+
 $green-color-top: 	                #a1eb3a;
 $green-color-bottom: 	            #6dc030;
 
@@ -235,6 +238,7 @@ $social-behance: 			#1769ff;
 
 $filter-blue:         darken($primary-color, 10%);
 $filter-azure:        darken($info-color, 10%);
+$filter-teal:         darken($info-color, 10%);
 $filter-green:        darken($success-color, 10%);
 $filter-orange:       darken($warning-color, 10%);
 $filter-red:          darken($danger-color, 10%);  
@@ -247,6 +251,7 @@ $new-green:           #87CB16;
 $new-orange:          #FFA534;
 $new-dark-blue:       #1F77D0;
 $new-black:           #5e5e5e;
+$new-teal:            #00bbbb;
 
 
 $topbar-x:             topbar-x !default;
@@ -261,5 +266,6 @@ $azure-navbar:              lighten($new-blue, 15%);
 $green-navbar:              lighten($new-green, 10%);
 $orange-navbar:             lighten($new-orange, 10%);
 $red-navbar:                lighten($new-red, 10%);
+$teal-navbar:               lighten($new-blue, 10%);
 
 
